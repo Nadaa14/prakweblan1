@@ -1,4 +1,4 @@
-<a href=="/create" type="button" class="btn btn-primary mb-4">Tambah</a>
+<a href="/create" type="button" class="btn btn-primary mb-4">Tambah</a>
 <table class="table table-striped">
   <thead>
     <tr>
