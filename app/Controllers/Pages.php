@@ -21,21 +21,5 @@ class Pages extends BaseController
             . view('templates/footer');
     }
 
-    public function mahasiswa()
-    {
-        $mahasiswaModel = new Mahasiswa();
-        $mahasiswa = $mahasiswaModel-> findAll();
-
-        $data =
-        [
-            'title' => 'Mahasiswa',
-            'mahasiswa' => $mahasiswa
-        ];
-
-        return view('templates/header', $data)
-            . view('pages/mahasiswa' , $data)
-            . view('templates/footer');
-    }
-
 
 }
